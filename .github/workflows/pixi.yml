@@ -1,0 +1,58 @@
+name: Pixi
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: ["*"]
+  workflow_dispatch: # allows you to trigger manually
+
+defaults:
+  run:
+    shell: bash -l {0}
+
+# When this workflow is queued, automatically cancel any previous running
+# or pending jobs from the same branch
+concurrency:
+  group: pixi-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    name: ${{ matrix.os }} - ${{ matrix.package }}-${{ matrix.variant }}
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os:
+          - ubuntu-latest # x86-64
+          - ubuntu-24.04-arm # ARM
+          - macos-15-intel # x86-64
+          - macos-latest # ARM
+        package:
+          - python
+          - numpy
+        variant:
+          - default
+          - asan
+          - freethreading
+          - tsan-freethreading
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - uses: prefix-dev/setup-pixi@v0
+        with:
+          pixi-version: v0.63.2
+          environments: ${{ matrix.package }}-${{ matrix.variant }}
+
+      - name: List conda packages
+        run: pixi ls -e ${{ matrix.package }}-${{ matrix.variant }}
+
+      - name: Run Python smoke test
+        run: pixi run -e ${{ matrix.package }}-${{ matrix.variant }} python-version
+
+      - name: Run NumPy smoke test
+        if: matrix.package == 'numpy'
+        run: pixi run -e ${{ matrix.package }}-${{ matrix.variant }} numpy-version
