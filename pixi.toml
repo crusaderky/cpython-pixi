@@ -6,47 +6,47 @@ preview = ["pixi-build"]
 # https://github.com/python/cpython/pull/142872
 
 [feature.python-default.dependencies]
-python.git = "https://github.com/crusaderky/cpython"
-python.rev = "tsan"
+python.git = "https://github.com/python/cpython"
 python.subdirectory = "Tools/pixi-packages/default"
 
 [feature.python-asan.dependencies]
-python.git = "https://github.com/crusaderky/cpython"
-python.rev = "tsan"
+python.git = "https://github.com/python/cpython"
 python.subdirectory = "Tools/pixi-packages/asan"
 
 [feature.python-freethreading.dependencies]
-python.git = "https://github.com/crusaderky/cpython"
-python.rev = "tsan"
+python.git = "https://github.com/python/cpython"
 python.subdirectory = "Tools/pixi-packages/freethreading"
 
 [feature.python-tsan-freethreading.dependencies]
-python.git = "https://github.com/crusaderky/cpython"
-python.rev = "tsan"
+python.git = "https://github.com/python/cpython"
 python.subdirectory = "Tools/pixi-packages/tsan-freethreading"
 
+[feature.python-default-release.dependencies]
+python ="*"
+
+[feature.python-freethreading-release.dependencies]
+python-freethreading = "*"
+
 # https://github.com/numpy/numpy/pull/30510
-# (points to https://github.com/python/cpython/pull/142872
-# with unlocked git rev)
 
 [feature.numpy-default.dependencies]
-numpy.git = "https://github.com/ngoldbaum/numpy"
-numpy.rev = "tsan-ft-pixi"
+numpy.git = "https://github.com/crusaderky/numpy"
+numpy.rev = "staging"
 numpy.subdirectory = "pixi-packages/default"
 
 [feature.numpy-asan.dependencies]
-numpy.git = "https://github.com/ngoldbaum/numpy"
-numpy.rev = "tsan-ft-pixi"
+numpy.git = "https://github.com/crusaderky/numpy"
+numpy.rev = "staging"
 numpy.subdirectory = "pixi-packages/asan"
 
 [feature.numpy-freethreading.dependencies]
-numpy.git = "https://github.com/ngoldbaum/numpy"
-numpy.rev = "tsan-ft-pixi"
+numpy.git = "https://github.com/crusaderky/numpy"
+numpy.rev = "staging"
 numpy.subdirectory = "pixi-packages/freethreading"
 
 [feature.numpy-tsan-freethreading.dependencies]
-numpy.git = "https://github.com/ngoldbaum/numpy"
-numpy.rev = "tsan-ft-pixi"
+numpy.git = "https://github.com/crusaderky/numpy"
+numpy.rev = "staging"
 numpy.subdirectory = "pixi-packages/tsan-freethreading"
 
 # ---
@@ -67,7 +67,7 @@ python-asan = ["python", "python-asan"]
 python-freethreading = ["python", "python-freethreading"]
 python-tsan-freethreading = ["python", "python-tsan-freethreading"]
 
-numpy-default = ["python", "python-default", "numpy", "numpy-default"]
+numpy-default = ["python", "python-default-release", "numpy", "numpy-default"]
 numpy-asan = ["python", "python-asan", "numpy", "numpy-asan"]
-numpy-freethreading = ["python", "python-freethreading", "numpy", "numpy-freethreading"]
+numpy-freethreading = ["python", "python-freethreading-release", "numpy", "numpy-freethreading"]
 numpy-tsan-freethreading = ["python", "python-tsan-freethreading", "numpy", "numpy-tsan-freethreading"]
