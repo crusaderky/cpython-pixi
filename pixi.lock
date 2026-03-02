@@ -16,7 +16,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/linux-64/_openmp_mutex-4.5-20_gnu.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/bzip2-1.0.8-hda65f42_9.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/ca-certificates-2026.2.25-hbd8a1cb_0.conda
-      - conda: git+https://github.com/python/cpython?subdirectory=Tools%2Fpixi-packages%2Fasan#201d251567738c234081329a244449e08fa86245
+      - conda: git+https://github.com/python/cpython?subdirectory=Tools%2Fpixi-packages%2Fasan#1cf5abedeb97ff6ed222afd28e650b9ecc384094
         subdir: linux-64
       - conda: https://conda.anaconda.org/conda-forge/linux-64/icu-78.2-h33c6efd_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/libexpat-2.7.4-hecca717_0.conda
@@ -31,7 +31,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/linux-64/libuuid-2.41.3-h5347b49_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/libzlib-1.3.1-hb9d3cd8_2.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/ncurses-6.5-h2d0b736_3.conda
-      - conda: git+https://github.com/crusaderky/numpy?subdirectory=pixi-packages%2Fasan&rev=staging#baf395be6378be93d9a2afa4b3da7554c16de395
+      - conda: git+https://github.com/crusaderky/numpy?subdirectory=pixi-packages%2Fasan&rev=staging#e56b24d51fef9feab7daecbb38cab02424e168ce
         build: hb0f4dca_0
       - conda: https://conda.anaconda.org/conda-forge/linux-64/openssl-3.6.1-h35e630c_1.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/python_abi-3.15-8_cp315.conda
@@ -42,7 +42,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/linux-aarch64/_openmp_mutex-4.5-20_gnu.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-aarch64/bzip2-1.0.8-h4777abc_9.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/ca-certificates-2026.2.25-hbd8a1cb_0.conda
-      - conda: git+https://github.com/python/cpython?subdirectory=Tools%2Fpixi-packages%2Fasan#201d251567738c234081329a244449e08fa86245
+      - conda: git+https://github.com/python/cpython?subdirectory=Tools%2Fpixi-packages%2Fasan#1cf5abedeb97ff6ed222afd28e650b9ecc384094
         subdir: linux-aarch64
       - conda: https://conda.anaconda.org/conda-forge/linux-aarch64/icu-78.2-hcab7f73_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-aarch64/libexpat-2.7.4-hfae3067_0.conda
@@ -57,7 +57,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/linux-aarch64/libuuid-2.41.3-h1022ec0_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-aarch64/libzlib-1.3.1-h86ecc28_2.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-aarch64/ncurses-6.5-ha32ae93_3.conda
-      - conda: git+https://github.com/crusaderky/numpy?subdirectory=pixi-packages%2Fasan&rev=staging#baf395be6378be93d9a2afa4b3da7554c16de395
+      - conda: git+https://github.com/crusaderky/numpy?subdirectory=pixi-packages%2Fasan&rev=staging#e56b24d51fef9feab7daecbb38cab02424e168ce
         build: he8cfe8b_0
       - conda: https://conda.anaconda.org/conda-forge/linux-aarch64/openssl-3.6.1-h546c87b_1.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/python_abi-3.15-8_cp315.conda
@@ -67,7 +67,7 @@ environments:
       osx-64:
       - conda: https://conda.anaconda.org/conda-forge/osx-64/bzip2-1.0.8-h500dc9f_9.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/ca-certificates-2026.2.25-hbd8a1cb_0.conda
-      - conda: git+https://github.com/python/cpython?subdirectory=Tools%2Fpixi-packages%2Fasan#201d251567738c234081329a244449e08fa86245
+      - conda: git+https://github.com/python/cpython?subdirectory=Tools%2Fpixi-packages%2Fasan#1cf5abedeb97ff6ed222afd28e650b9ecc384094
         subdir: osx-64
       - conda: https://conda.anaconda.org/conda-forge/osx-64/libcompiler-rt-22.1.0-h1637cdf_0.conda
       - conda: https://conda.anaconda.org/conda-forge/osx-64/libcxx-22.1.0-h19cb2f5_1.conda
@@ -78,7 +78,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/osx-64/libsqlite-3.51.2-hb99441e_0.conda
       - conda: https://conda.anaconda.org/conda-forge/osx-64/libzlib-1.3.1-hd23fc13_2.conda
       - conda: https://conda.anaconda.org/conda-forge/osx-64/ncurses-6.5-h0622a9a_3.conda
-      - conda: git+https://github.com/crusaderky/numpy?subdirectory=pixi-packages%2Fasan&rev=staging#baf395be6378be93d9a2afa4b3da7554c16de395
+      - conda: git+https://github.com/crusaderky/numpy?subdirectory=pixi-packages%2Fasan&rev=staging#e56b24d51fef9feab7daecbb38cab02424e168ce
         build: h0dc7051_0
       - conda: https://conda.anaconda.org/conda-forge/osx-64/openssl-3.6.1-hb6871ef_1.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/python_abi-3.15-8_cp315.conda
@@ -88,7 +88,7 @@ environments:
       osx-arm64:
       - conda: https://conda.anaconda.org/conda-forge/osx-arm64/bzip2-1.0.8-hd037594_9.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/ca-certificates-2026.2.25-hbd8a1cb_0.conda
-      - conda: git+https://github.com/python/cpython?subdirectory=Tools%2Fpixi-packages%2Fasan#201d251567738c234081329a244449e08fa86245
+      - conda: git+https://github.com/python/cpython?subdirectory=Tools%2Fpixi-packages%2Fasan#1cf5abedeb97ff6ed222afd28e650b9ecc384094
         subdir: osx-arm64
       - conda: https://conda.anaconda.org/conda-forge/osx-arm64/icu-78.2-hef89b57_0.conda
       - conda: https://conda.anaconda.org/conda-forge/osx-arm64/libcompiler-rt-22.1.0-hd34ed20_0.conda
@@ -100,7 +100,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/osx-arm64/libsqlite-3.51.2-h1ae2325_0.conda
       - conda: https://conda.anaconda.org/conda-forge/osx-arm64/libzlib-1.3.1-h8359307_2.conda
       - conda: https://conda.anaconda.org/conda-forge/osx-arm64/ncurses-6.5-h5e97a16_3.conda
-      - conda: git+https://github.com/crusaderky/numpy?subdirectory=pixi-packages%2Fasan&rev=staging#baf395be6378be93d9a2afa4b3da7554c16de395
+      - conda: git+https://github.com/crusaderky/numpy?subdirectory=pixi-packages%2Fasan&rev=staging#e56b24d51fef9feab7daecbb38cab02424e168ce
         build: h60d57d3_0
       - conda: https://conda.anaconda.org/conda-forge/osx-arm64/openssl-3.6.1-hd24854e_1.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/python_abi-3.15-8_cp315.conda
@@ -130,7 +130,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/linux-64/libuuid-2.41.3-h5347b49_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/libzlib-1.3.1-hb9d3cd8_2.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/ncurses-6.5-h2d0b736_3.conda
-      - conda: git+https://github.com/crusaderky/numpy?subdirectory=pixi-packages%2Fdefault&rev=staging#baf395be6378be93d9a2afa4b3da7554c16de395
+      - conda: git+https://github.com/crusaderky/numpy?subdirectory=pixi-packages%2Fdefault&rev=staging#e56b24d51fef9feab7daecbb38cab02424e168ce
         build: hb0f4dca_0
       - conda: https://conda.anaconda.org/conda-forge/linux-64/openssl-3.6.1-h35e630c_1.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/python-3.14.3-h32b2ec7_101_cp314.conda
@@ -156,7 +156,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/linux-aarch64/libuuid-2.41.3-h1022ec0_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-aarch64/libzlib-1.3.1-h86ecc28_2.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-aarch64/ncurses-6.5-ha32ae93_3.conda
-      - conda: git+https://github.com/crusaderky/numpy?subdirectory=pixi-packages%2Fdefault&rev=staging#baf395be6378be93d9a2afa4b3da7554c16de395
+      - conda: git+https://github.com/crusaderky/numpy?subdirectory=pixi-packages%2Fdefault&rev=staging#e56b24d51fef9feab7daecbb38cab02424e168ce
         build: he8cfe8b_0
       - conda: https://conda.anaconda.org/conda-forge/linux-aarch64/openssl-3.6.1-h546c87b_1.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-aarch64/python-3.14.3-hb06a95a_101_cp314.conda
@@ -176,7 +176,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/osx-64/libsqlite-3.51.2-hb99441e_0.conda
       - conda: https://conda.anaconda.org/conda-forge/osx-64/libzlib-1.3.1-hd23fc13_2.conda
       - conda: https://conda.anaconda.org/conda-forge/osx-64/ncurses-6.5-h0622a9a_3.conda
-      - conda: git+https://github.com/crusaderky/numpy?subdirectory=pixi-packages%2Fdefault&rev=staging#baf395be6378be93d9a2afa4b3da7554c16de395
+      - conda: git+https://github.com/crusaderky/numpy?subdirectory=pixi-packages%2Fdefault&rev=staging#e56b24d51fef9feab7daecbb38cab02424e168ce
         build: h0dc7051_0
       - conda: https://conda.anaconda.org/conda-forge/osx-64/openssl-3.6.1-hb6871ef_1.conda
       - conda: https://conda.anaconda.org/conda-forge/osx-64/python-3.14.3-h4f44bb5_101_cp314.conda
@@ -197,7 +197,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/osx-arm64/libsqlite-3.51.2-h1ae2325_0.conda
       - conda: https://conda.anaconda.org/conda-forge/osx-arm64/libzlib-1.3.1-h8359307_2.conda
       - conda: https://conda.anaconda.org/conda-forge/osx-arm64/ncurses-6.5-h5e97a16_3.conda
-      - conda: git+https://github.com/crusaderky/numpy?subdirectory=pixi-packages%2Fdefault&rev=staging#baf395be6378be93d9a2afa4b3da7554c16de395
+      - conda: git+https://github.com/crusaderky/numpy?subdirectory=pixi-packages%2Fdefault&rev=staging#e56b24d51fef9feab7daecbb38cab02424e168ce
         build: h60d57d3_0
       - conda: https://conda.anaconda.org/conda-forge/osx-arm64/openssl-3.6.1-hd24854e_1.conda
       - conda: https://conda.anaconda.org/conda-forge/osx-arm64/python-3.14.3-h4c637c5_101_cp314.conda
@@ -230,7 +230,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/linux-64/libuuid-2.41.3-h5347b49_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/libzlib-1.3.1-hb9d3cd8_2.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/ncurses-6.5-h2d0b736_3.conda
-      - conda: git+https://github.com/crusaderky/numpy?subdirectory=pixi-packages%2Ffreethreading&rev=staging#baf395be6378be93d9a2afa4b3da7554c16de395
+      - conda: git+https://github.com/crusaderky/numpy?subdirectory=pixi-packages%2Ffreethreading&rev=staging#e56b24d51fef9feab7daecbb38cab02424e168ce
         build: hb0f4dca_0
       - conda: https://conda.anaconda.org/conda-forge/linux-64/openssl-3.6.1-h35e630c_1.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/python-3.14.3-he1279bd_1_cp314t.conda
@@ -258,7 +258,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/linux-aarch64/libuuid-2.41.3-h1022ec0_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-aarch64/libzlib-1.3.1-h86ecc28_2.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-aarch64/ncurses-6.5-ha32ae93_3.conda
-      - conda: git+https://github.com/crusaderky/numpy?subdirectory=pixi-packages%2Ffreethreading&rev=staging#baf395be6378be93d9a2afa4b3da7554c16de395
+      - conda: git+https://github.com/crusaderky/numpy?subdirectory=pixi-packages%2Ffreethreading&rev=staging#e56b24d51fef9feab7daecbb38cab02424e168ce
         build: he8cfe8b_0
       - conda: https://conda.anaconda.org/conda-forge/linux-aarch64/openssl-3.6.1-h546c87b_1.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-aarch64/python-3.14.3-h6718eea_1_cp314t.conda
@@ -280,7 +280,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/osx-64/libsqlite-3.51.2-hb99441e_0.conda
       - conda: https://conda.anaconda.org/conda-forge/osx-64/libzlib-1.3.1-hd23fc13_2.conda
       - conda: https://conda.anaconda.org/conda-forge/osx-64/ncurses-6.5-h0622a9a_3.conda
-      - conda: git+https://github.com/crusaderky/numpy?subdirectory=pixi-packages%2Ffreethreading&rev=staging#baf395be6378be93d9a2afa4b3da7554c16de395
+      - conda: git+https://github.com/crusaderky/numpy?subdirectory=pixi-packages%2Ffreethreading&rev=staging#e56b24d51fef9feab7daecbb38cab02424e168ce
         build: h0dc7051_0
       - conda: https://conda.anaconda.org/conda-forge/osx-64/openssl-3.6.1-hb6871ef_1.conda
       - conda: https://conda.anaconda.org/conda-forge/osx-64/python-3.14.3-h994187b_1_cp314t.conda
@@ -303,7 +303,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/osx-arm64/libsqlite-3.51.2-h1ae2325_0.conda
       - conda: https://conda.anaconda.org/conda-forge/osx-arm64/libzlib-1.3.1-h8359307_2.conda
       - conda: https://conda.anaconda.org/conda-forge/osx-arm64/ncurses-6.5-h5e97a16_3.conda
-      - conda: git+https://github.com/crusaderky/numpy?subdirectory=pixi-packages%2Ffreethreading&rev=staging#baf395be6378be93d9a2afa4b3da7554c16de395
+      - conda: git+https://github.com/crusaderky/numpy?subdirectory=pixi-packages%2Ffreethreading&rev=staging#e56b24d51fef9feab7daecbb38cab02424e168ce
         build: h60d57d3_0
       - conda: https://conda.anaconda.org/conda-forge/osx-arm64/openssl-3.6.1-hd24854e_1.conda
       - conda: https://conda.anaconda.org/conda-forge/osx-arm64/python-3.14.3-h6c44a53_1_cp314t.conda
@@ -323,7 +323,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/linux-64/_openmp_mutex-4.5-20_gnu.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/bzip2-1.0.8-hda65f42_9.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/ca-certificates-2026.2.25-hbd8a1cb_0.conda
-      - conda: git+https://github.com/python/cpython?subdirectory=Tools%2Fpixi-packages%2Ftsan-freethreading#201d251567738c234081329a244449e08fa86245
+      - conda: git+https://github.com/python/cpython?subdirectory=Tools%2Fpixi-packages%2Ftsan-freethreading#1cf5abedeb97ff6ed222afd28e650b9ecc384094
         subdir: linux-64
       - conda: https://conda.anaconda.org/conda-forge/linux-64/icu-78.2-h33c6efd_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/libexpat-2.7.4-hecca717_0.conda
@@ -338,7 +338,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/linux-64/libuuid-2.41.3-h5347b49_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/libzlib-1.3.1-hb9d3cd8_2.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/ncurses-6.5-h2d0b736_3.conda
-      - conda: git+https://github.com/crusaderky/numpy?subdirectory=pixi-packages%2Ftsan-freethreading&rev=staging#baf395be6378be93d9a2afa4b3da7554c16de395
+      - conda: git+https://github.com/crusaderky/numpy?subdirectory=pixi-packages%2Ftsan-freethreading&rev=staging#e56b24d51fef9feab7daecbb38cab02424e168ce
         build: hb0f4dca_0
       - conda: https://conda.anaconda.org/conda-forge/linux-64/openssl-3.6.1-h35e630c_1.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/python_abi-3.15-8_cp315t.conda
@@ -349,7 +349,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/linux-aarch64/_openmp_mutex-4.5-20_gnu.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-aarch64/bzip2-1.0.8-h4777abc_9.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/ca-certificates-2026.2.25-hbd8a1cb_0.conda
-      - conda: git+https://github.com/python/cpython?subdirectory=Tools%2Fpixi-packages%2Ftsan-freethreading#201d251567738c234081329a244449e08fa86245
+      - conda: git+https://github.com/python/cpython?subdirectory=Tools%2Fpixi-packages%2Ftsan-freethreading#1cf5abedeb97ff6ed222afd28e650b9ecc384094
         subdir: linux-aarch64
       - conda: https://conda.anaconda.org/conda-forge/linux-aarch64/icu-78.2-hcab7f73_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-aarch64/libexpat-2.7.4-hfae3067_0.conda
@@ -364,7 +364,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/linux-aarch64/libuuid-2.41.3-h1022ec0_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-aarch64/libzlib-1.3.1-h86ecc28_2.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-aarch64/ncurses-6.5-ha32ae93_3.conda
-      - conda: git+https://github.com/crusaderky/numpy?subdirectory=pixi-packages%2Ftsan-freethreading&rev=staging#baf395be6378be93d9a2afa4b3da7554c16de395
+      - conda: git+https://github.com/crusaderky/numpy?subdirectory=pixi-packages%2Ftsan-freethreading&rev=staging#e56b24d51fef9feab7daecbb38cab02424e168ce
         build: he8cfe8b_0
       - conda: https://conda.anaconda.org/conda-forge/linux-aarch64/openssl-3.6.1-h546c87b_1.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/python_abi-3.15-8_cp315t.conda
@@ -374,7 +374,7 @@ environments:
       osx-64:
       - conda: https://conda.anaconda.org/conda-forge/osx-64/bzip2-1.0.8-h500dc9f_9.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/ca-certificates-2026.2.25-hbd8a1cb_0.conda
-      - conda: git+https://github.com/python/cpython?subdirectory=Tools%2Fpixi-packages%2Ftsan-freethreading#201d251567738c234081329a244449e08fa86245
+      - conda: git+https://github.com/python/cpython?subdirectory=Tools%2Fpixi-packages%2Ftsan-freethreading#1cf5abedeb97ff6ed222afd28e650b9ecc384094
         subdir: osx-64
       - conda: https://conda.anaconda.org/conda-forge/osx-64/libcompiler-rt-22.1.0-h1637cdf_0.conda
       - conda: https://conda.anaconda.org/conda-forge/osx-64/libcxx-22.1.0-h19cb2f5_1.conda
@@ -385,7 +385,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/osx-64/libsqlite-3.51.2-hb99441e_0.conda
       - conda: https://conda.anaconda.org/conda-forge/osx-64/libzlib-1.3.1-hd23fc13_2.conda
       - conda: https://conda.anaconda.org/conda-forge/osx-64/ncurses-6.5-h0622a9a_3.conda
-      - conda: git+https://github.com/crusaderky/numpy?subdirectory=pixi-packages%2Ftsan-freethreading&rev=staging#baf395be6378be93d9a2afa4b3da7554c16de395
+      - conda: git+https://github.com/crusaderky/numpy?subdirectory=pixi-packages%2Ftsan-freethreading&rev=staging#e56b24d51fef9feab7daecbb38cab02424e168ce
         build: h0dc7051_0
       - conda: https://conda.anaconda.org/conda-forge/osx-64/openssl-3.6.1-hb6871ef_1.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/python_abi-3.15-8_cp315t.conda
@@ -395,7 +395,7 @@ environments:
       osx-arm64:
       - conda: https://conda.anaconda.org/conda-forge/osx-arm64/bzip2-1.0.8-hd037594_9.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/ca-certificates-2026.2.25-hbd8a1cb_0.conda
-      - conda: git+https://github.com/python/cpython?subdirectory=Tools%2Fpixi-packages%2Ftsan-freethreading#201d251567738c234081329a244449e08fa86245
+      - conda: git+https://github.com/python/cpython?subdirectory=Tools%2Fpixi-packages%2Ftsan-freethreading#1cf5abedeb97ff6ed222afd28e650b9ecc384094
         subdir: osx-arm64
       - conda: https://conda.anaconda.org/conda-forge/osx-arm64/icu-78.2-hef89b57_0.conda
       - conda: https://conda.anaconda.org/conda-forge/osx-arm64/libcompiler-rt-22.1.0-hd34ed20_0.conda
@@ -407,7 +407,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/osx-arm64/libsqlite-3.51.2-h1ae2325_0.conda
       - conda: https://conda.anaconda.org/conda-forge/osx-arm64/libzlib-1.3.1-h8359307_2.conda
       - conda: https://conda.anaconda.org/conda-forge/osx-arm64/ncurses-6.5-h5e97a16_3.conda
-      - conda: git+https://github.com/crusaderky/numpy?subdirectory=pixi-packages%2Ftsan-freethreading&rev=staging#baf395be6378be93d9a2afa4b3da7554c16de395
+      - conda: git+https://github.com/crusaderky/numpy?subdirectory=pixi-packages%2Ftsan-freethreading&rev=staging#e56b24d51fef9feab7daecbb38cab02424e168ce
         build: h60d57d3_0
       - conda: https://conda.anaconda.org/conda-forge/osx-arm64/openssl-3.6.1-hd24854e_1.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/python_abi-3.15-8_cp315t.conda
@@ -424,7 +424,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/linux-64/_openmp_mutex-4.5-20_gnu.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/bzip2-1.0.8-hda65f42_9.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/ca-certificates-2026.2.25-hbd8a1cb_0.conda
-      - conda: git+https://github.com/python/cpython?subdirectory=Tools%2Fpixi-packages%2Fasan#201d251567738c234081329a244449e08fa86245
+      - conda: git+https://github.com/python/cpython?subdirectory=Tools%2Fpixi-packages%2Fasan#1cf5abedeb97ff6ed222afd28e650b9ecc384094
         subdir: linux-64
       - conda: https://conda.anaconda.org/conda-forge/linux-64/icu-78.2-h33c6efd_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/libexpat-2.7.4-hecca717_0.conda
@@ -447,7 +447,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/linux-aarch64/_openmp_mutex-4.5-20_gnu.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-aarch64/bzip2-1.0.8-h4777abc_9.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/ca-certificates-2026.2.25-hbd8a1cb_0.conda
-      - conda: git+https://github.com/python/cpython?subdirectory=Tools%2Fpixi-packages%2Fasan#201d251567738c234081329a244449e08fa86245
+      - conda: git+https://github.com/python/cpython?subdirectory=Tools%2Fpixi-packages%2Fasan#1cf5abedeb97ff6ed222afd28e650b9ecc384094
         subdir: linux-aarch64
       - conda: https://conda.anaconda.org/conda-forge/linux-aarch64/icu-78.2-hcab7f73_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-aarch64/libexpat-2.7.4-hfae3067_0.conda
@@ -469,7 +469,7 @@ environments:
       osx-64:
       - conda: https://conda.anaconda.org/conda-forge/osx-64/bzip2-1.0.8-h500dc9f_9.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/ca-certificates-2026.2.25-hbd8a1cb_0.conda
-      - conda: git+https://github.com/python/cpython?subdirectory=Tools%2Fpixi-packages%2Fasan#201d251567738c234081329a244449e08fa86245
+      - conda: git+https://github.com/python/cpython?subdirectory=Tools%2Fpixi-packages%2Fasan#1cf5abedeb97ff6ed222afd28e650b9ecc384094
         subdir: osx-64
       - conda: https://conda.anaconda.org/conda-forge/osx-64/libcompiler-rt-22.1.0-h1637cdf_0.conda
       - conda: https://conda.anaconda.org/conda-forge/osx-64/libcxx-22.1.0-h19cb2f5_1.conda
@@ -487,7 +487,7 @@ environments:
       osx-arm64:
       - conda: https://conda.anaconda.org/conda-forge/osx-arm64/bzip2-1.0.8-hd037594_9.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/ca-certificates-2026.2.25-hbd8a1cb_0.conda
-      - conda: git+https://github.com/python/cpython?subdirectory=Tools%2Fpixi-packages%2Fasan#201d251567738c234081329a244449e08fa86245
+      - conda: git+https://github.com/python/cpython?subdirectory=Tools%2Fpixi-packages%2Fasan#1cf5abedeb97ff6ed222afd28e650b9ecc384094
         subdir: osx-arm64
       - conda: https://conda.anaconda.org/conda-forge/osx-arm64/icu-78.2-hef89b57_0.conda
       - conda: https://conda.anaconda.org/conda-forge/osx-arm64/libcompiler-rt-22.1.0-hd34ed20_0.conda
@@ -513,7 +513,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/linux-64/_openmp_mutex-4.5-20_gnu.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/bzip2-1.0.8-hda65f42_9.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/ca-certificates-2026.2.25-hbd8a1cb_0.conda
-      - conda: git+https://github.com/python/cpython?subdirectory=Tools%2Fpixi-packages%2Fdefault#201d251567738c234081329a244449e08fa86245
+      - conda: git+https://github.com/python/cpython?subdirectory=Tools%2Fpixi-packages%2Fdefault#1cf5abedeb97ff6ed222afd28e650b9ecc384094
         subdir: linux-64
       - conda: https://conda.anaconda.org/conda-forge/linux-64/icu-78.2-h33c6efd_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/libexpat-2.7.4-hecca717_0.conda
@@ -535,7 +535,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/linux-aarch64/_openmp_mutex-4.5-20_gnu.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-aarch64/bzip2-1.0.8-h4777abc_9.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/ca-certificates-2026.2.25-hbd8a1cb_0.conda
-      - conda: git+https://github.com/python/cpython?subdirectory=Tools%2Fpixi-packages%2Fdefault#201d251567738c234081329a244449e08fa86245
+      - conda: git+https://github.com/python/cpython?subdirectory=Tools%2Fpixi-packages%2Fdefault#1cf5abedeb97ff6ed222afd28e650b9ecc384094
         subdir: linux-aarch64
       - conda: https://conda.anaconda.org/conda-forge/linux-aarch64/icu-78.2-hcab7f73_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-aarch64/libexpat-2.7.4-hfae3067_0.conda
@@ -556,7 +556,7 @@ environments:
       osx-64:
       - conda: https://conda.anaconda.org/conda-forge/osx-64/bzip2-1.0.8-h500dc9f_9.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/ca-certificates-2026.2.25-hbd8a1cb_0.conda
-      - conda: git+https://github.com/python/cpython?subdirectory=Tools%2Fpixi-packages%2Fdefault#201d251567738c234081329a244449e08fa86245
+      - conda: git+https://github.com/python/cpython?subdirectory=Tools%2Fpixi-packages%2Fdefault#1cf5abedeb97ff6ed222afd28e650b9ecc384094
         subdir: osx-64
       - conda: https://conda.anaconda.org/conda-forge/osx-64/libcxx-22.1.0-h19cb2f5_1.conda
       - conda: https://conda.anaconda.org/conda-forge/osx-64/libexpat-2.7.4-h991f03e_0.conda
@@ -573,7 +573,7 @@ environments:
       osx-arm64:
       - conda: https://conda.anaconda.org/conda-forge/osx-arm64/bzip2-1.0.8-hd037594_9.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/ca-certificates-2026.2.25-hbd8a1cb_0.conda
-      - conda: git+https://github.com/python/cpython?subdirectory=Tools%2Fpixi-packages%2Fdefault#201d251567738c234081329a244449e08fa86245
+      - conda: git+https://github.com/python/cpython?subdirectory=Tools%2Fpixi-packages%2Fdefault#1cf5abedeb97ff6ed222afd28e650b9ecc384094
         subdir: osx-arm64
       - conda: https://conda.anaconda.org/conda-forge/osx-arm64/icu-78.2-hef89b57_0.conda
       - conda: https://conda.anaconda.org/conda-forge/osx-arm64/libcxx-22.1.0-h55c6f16_1.conda
@@ -598,7 +598,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/linux-64/_openmp_mutex-4.5-20_gnu.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/bzip2-1.0.8-hda65f42_9.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/ca-certificates-2026.2.25-hbd8a1cb_0.conda
-      - conda: git+https://github.com/python/cpython?subdirectory=Tools%2Fpixi-packages%2Ffreethreading#201d251567738c234081329a244449e08fa86245
+      - conda: git+https://github.com/python/cpython?subdirectory=Tools%2Fpixi-packages%2Ffreethreading#1cf5abedeb97ff6ed222afd28e650b9ecc384094
         subdir: linux-64
       - conda: https://conda.anaconda.org/conda-forge/linux-64/icu-78.2-h33c6efd_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/libexpat-2.7.4-hecca717_0.conda
@@ -620,7 +620,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/linux-aarch64/_openmp_mutex-4.5-20_gnu.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-aarch64/bzip2-1.0.8-h4777abc_9.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/ca-certificates-2026.2.25-hbd8a1cb_0.conda
-      - conda: git+https://github.com/python/cpython?subdirectory=Tools%2Fpixi-packages%2Ffreethreading#201d251567738c234081329a244449e08fa86245
+      - conda: git+https://github.com/python/cpython?subdirectory=Tools%2Fpixi-packages%2Ffreethreading#1cf5abedeb97ff6ed222afd28e650b9ecc384094
         subdir: linux-aarch64
       - conda: https://conda.anaconda.org/conda-forge/linux-aarch64/icu-78.2-hcab7f73_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-aarch64/libexpat-2.7.4-hfae3067_0.conda
@@ -641,7 +641,7 @@ environments:
       osx-64:
       - conda: https://conda.anaconda.org/conda-forge/osx-64/bzip2-1.0.8-h500dc9f_9.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/ca-certificates-2026.2.25-hbd8a1cb_0.conda
-      - conda: git+https://github.com/python/cpython?subdirectory=Tools%2Fpixi-packages%2Ffreethreading#201d251567738c234081329a244449e08fa86245
+      - conda: git+https://github.com/python/cpython?subdirectory=Tools%2Fpixi-packages%2Ffreethreading#1cf5abedeb97ff6ed222afd28e650b9ecc384094
         subdir: osx-64
       - conda: https://conda.anaconda.org/conda-forge/osx-64/libcxx-22.1.0-h19cb2f5_1.conda
       - conda: https://conda.anaconda.org/conda-forge/osx-64/libexpat-2.7.4-h991f03e_0.conda
@@ -658,7 +658,7 @@ environments:
       osx-arm64:
       - conda: https://conda.anaconda.org/conda-forge/osx-arm64/bzip2-1.0.8-hd037594_9.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/ca-certificates-2026.2.25-hbd8a1cb_0.conda
-      - conda: git+https://github.com/python/cpython?subdirectory=Tools%2Fpixi-packages%2Ffreethreading#201d251567738c234081329a244449e08fa86245
+      - conda: git+https://github.com/python/cpython?subdirectory=Tools%2Fpixi-packages%2Ffreethreading#1cf5abedeb97ff6ed222afd28e650b9ecc384094
         subdir: osx-arm64
       - conda: https://conda.anaconda.org/conda-forge/osx-arm64/icu-78.2-hef89b57_0.conda
       - conda: https://conda.anaconda.org/conda-forge/osx-arm64/libcxx-22.1.0-h55c6f16_1.conda
@@ -683,7 +683,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/linux-64/_openmp_mutex-4.5-20_gnu.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/bzip2-1.0.8-hda65f42_9.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/ca-certificates-2026.2.25-hbd8a1cb_0.conda
-      - conda: git+https://github.com/python/cpython?subdirectory=Tools%2Fpixi-packages%2Ftsan-freethreading#201d251567738c234081329a244449e08fa86245
+      - conda: git+https://github.com/python/cpython?subdirectory=Tools%2Fpixi-packages%2Ftsan-freethreading#1cf5abedeb97ff6ed222afd28e650b9ecc384094
         subdir: linux-64
       - conda: https://conda.anaconda.org/conda-forge/linux-64/icu-78.2-h33c6efd_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/libexpat-2.7.4-hecca717_0.conda
@@ -706,7 +706,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/linux-aarch64/_openmp_mutex-4.5-20_gnu.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-aarch64/bzip2-1.0.8-h4777abc_9.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/ca-certificates-2026.2.25-hbd8a1cb_0.conda
-      - conda: git+https://github.com/python/cpython?subdirectory=Tools%2Fpixi-packages%2Ftsan-freethreading#201d251567738c234081329a244449e08fa86245
+      - conda: git+https://github.com/python/cpython?subdirectory=Tools%2Fpixi-packages%2Ftsan-freethreading#1cf5abedeb97ff6ed222afd28e650b9ecc384094
         subdir: linux-aarch64
       - conda: https://conda.anaconda.org/conda-forge/linux-aarch64/icu-78.2-hcab7f73_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-aarch64/libexpat-2.7.4-hfae3067_0.conda
@@ -728,7 +728,7 @@ environments:
       osx-64:
       - conda: https://conda.anaconda.org/conda-forge/osx-64/bzip2-1.0.8-h500dc9f_9.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/ca-certificates-2026.2.25-hbd8a1cb_0.conda
-      - conda: git+https://github.com/python/cpython?subdirectory=Tools%2Fpixi-packages%2Ftsan-freethreading#201d251567738c234081329a244449e08fa86245
+      - conda: git+https://github.com/python/cpython?subdirectory=Tools%2Fpixi-packages%2Ftsan-freethreading#1cf5abedeb97ff6ed222afd28e650b9ecc384094
         subdir: osx-64
       - conda: https://conda.anaconda.org/conda-forge/osx-64/libcompiler-rt-22.1.0-h1637cdf_0.conda
       - conda: https://conda.anaconda.org/conda-forge/osx-64/libcxx-22.1.0-h19cb2f5_1.conda
@@ -746,7 +746,7 @@ environments:
       osx-arm64:
       - conda: https://conda.anaconda.org/conda-forge/osx-arm64/bzip2-1.0.8-hd037594_9.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/ca-certificates-2026.2.25-hbd8a1cb_0.conda
-      - conda: git+https://github.com/python/cpython?subdirectory=Tools%2Fpixi-packages%2Ftsan-freethreading#201d251567738c234081329a244449e08fa86245
+      - conda: git+https://github.com/python/cpython?subdirectory=Tools%2Fpixi-packages%2Ftsan-freethreading#1cf5abedeb97ff6ed222afd28e650b9ecc384094
         subdir: osx-arm64
       - conda: https://conda.anaconda.org/conda-forge/osx-arm64/icu-78.2-hef89b57_0.conda
       - conda: https://conda.anaconda.org/conda-forge/osx-arm64/libcompiler-rt-22.1.0-hd34ed20_0.conda
@@ -1318,7 +1318,7 @@ packages:
   license: X11 AND BSD-3-Clause
   size: 797030
   timestamp: 1738196177597
-- conda: git+https://github.com/crusaderky/numpy?subdirectory=pixi-packages%2Fasan&rev=staging#baf395be6378be93d9a2afa4b3da7554c16de395
+- conda: git+https://github.com/crusaderky/numpy?subdirectory=pixi-packages%2Fasan&rev=staging#e56b24d51fef9feab7daecbb38cab02424e168ce
   name: numpy
   version: 2.5.0.dev0
   build: h0dc7051_0
@@ -1333,7 +1333,7 @@ packages:
   license: BSD-3-Clause AND 0BSD AND MIT AND Zlib AND CC0-1.0
   package_build_source:
     path: ../..
-- conda: git+https://github.com/crusaderky/numpy?subdirectory=pixi-packages%2Fasan&rev=staging#baf395be6378be93d9a2afa4b3da7554c16de395
+- conda: git+https://github.com/crusaderky/numpy?subdirectory=pixi-packages%2Fasan&rev=staging#e56b24d51fef9feab7daecbb38cab02424e168ce
   name: numpy
   version: 2.5.0.dev0
   build: h60d57d3_0
@@ -1348,7 +1348,7 @@ packages:
   license: BSD-3-Clause AND 0BSD AND MIT AND Zlib AND CC0-1.0
   package_build_source:
     path: ../..
-- conda: git+https://github.com/crusaderky/numpy?subdirectory=pixi-packages%2Fasan&rev=staging#baf395be6378be93d9a2afa4b3da7554c16de395
+- conda: git+https://github.com/crusaderky/numpy?subdirectory=pixi-packages%2Fasan&rev=staging#e56b24d51fef9feab7daecbb38cab02424e168ce
   name: numpy
   version: 2.5.0.dev0
   build: hb0f4dca_0
@@ -1365,7 +1365,7 @@ packages:
   license: BSD-3-Clause AND 0BSD AND MIT AND Zlib AND CC0-1.0
   package_build_source:
     path: ../..
-- conda: git+https://github.com/crusaderky/numpy?subdirectory=pixi-packages%2Fasan&rev=staging#baf395be6378be93d9a2afa4b3da7554c16de395
+- conda: git+https://github.com/crusaderky/numpy?subdirectory=pixi-packages%2Fasan&rev=staging#e56b24d51fef9feab7daecbb38cab02424e168ce
   name: numpy
   version: 2.5.0.dev0
   build: he8cfe8b_0
@@ -1382,7 +1382,7 @@ packages:
   license: BSD-3-Clause AND 0BSD AND MIT AND Zlib AND CC0-1.0
   package_build_source:
     path: ../..
-- conda: git+https://github.com/crusaderky/numpy?subdirectory=pixi-packages%2Fdefault&rev=staging#baf395be6378be93d9a2afa4b3da7554c16de395
+- conda: git+https://github.com/crusaderky/numpy?subdirectory=pixi-packages%2Fdefault&rev=staging#e56b24d51fef9feab7daecbb38cab02424e168ce
   name: numpy
   version: 2.5.0.dev0
   build: h0dc7051_0
@@ -1397,7 +1397,7 @@ packages:
   license: BSD-3-Clause AND 0BSD AND MIT AND Zlib AND CC0-1.0
   package_build_source:
     path: ../..
-- conda: git+https://github.com/crusaderky/numpy?subdirectory=pixi-packages%2Fdefault&rev=staging#baf395be6378be93d9a2afa4b3da7554c16de395
+- conda: git+https://github.com/crusaderky/numpy?subdirectory=pixi-packages%2Fdefault&rev=staging#e56b24d51fef9feab7daecbb38cab02424e168ce
   name: numpy
   version: 2.5.0.dev0
   build: h60d57d3_0
@@ -1412,7 +1412,7 @@ packages:
   license: BSD-3-Clause AND 0BSD AND MIT AND Zlib AND CC0-1.0
   package_build_source:
     path: ../..
-- conda: git+https://github.com/crusaderky/numpy?subdirectory=pixi-packages%2Fdefault&rev=staging#baf395be6378be93d9a2afa4b3da7554c16de395
+- conda: git+https://github.com/crusaderky/numpy?subdirectory=pixi-packages%2Fdefault&rev=staging#e56b24d51fef9feab7daecbb38cab02424e168ce
   name: numpy
   version: 2.5.0.dev0
   build: hb0f4dca_0
@@ -1429,7 +1429,7 @@ packages:
   license: BSD-3-Clause AND 0BSD AND MIT AND Zlib AND CC0-1.0
   package_build_source:
     path: ../..
-- conda: git+https://github.com/crusaderky/numpy?subdirectory=pixi-packages%2Fdefault&rev=staging#baf395be6378be93d9a2afa4b3da7554c16de395
+- conda: git+https://github.com/crusaderky/numpy?subdirectory=pixi-packages%2Fdefault&rev=staging#e56b24d51fef9feab7daecbb38cab02424e168ce
   name: numpy
   version: 2.5.0.dev0
   build: he8cfe8b_0
@@ -1446,7 +1446,7 @@ packages:
   license: BSD-3-Clause AND 0BSD AND MIT AND Zlib AND CC0-1.0
   package_build_source:
     path: ../..
-- conda: git+https://github.com/crusaderky/numpy?subdirectory=pixi-packages%2Ffreethreading&rev=staging#baf395be6378be93d9a2afa4b3da7554c16de395
+- conda: git+https://github.com/crusaderky/numpy?subdirectory=pixi-packages%2Ffreethreading&rev=staging#e56b24d51fef9feab7daecbb38cab02424e168ce
   name: numpy
   version: 2.5.0.dev0
   build: h0dc7051_0
@@ -1461,7 +1461,7 @@ packages:
   license: BSD-3-Clause AND 0BSD AND MIT AND Zlib AND CC0-1.0
   package_build_source:
     path: ../..
-- conda: git+https://github.com/crusaderky/numpy?subdirectory=pixi-packages%2Ffreethreading&rev=staging#baf395be6378be93d9a2afa4b3da7554c16de395
+- conda: git+https://github.com/crusaderky/numpy?subdirectory=pixi-packages%2Ffreethreading&rev=staging#e56b24d51fef9feab7daecbb38cab02424e168ce
   name: numpy
   version: 2.5.0.dev0
   build: h60d57d3_0
@@ -1476,7 +1476,7 @@ packages:
   license: BSD-3-Clause AND 0BSD AND MIT AND Zlib AND CC0-1.0
   package_build_source:
     path: ../..
-- conda: git+https://github.com/crusaderky/numpy?subdirectory=pixi-packages%2Ffreethreading&rev=staging#baf395be6378be93d9a2afa4b3da7554c16de395
+- conda: git+https://github.com/crusaderky/numpy?subdirectory=pixi-packages%2Ffreethreading&rev=staging#e56b24d51fef9feab7daecbb38cab02424e168ce
   name: numpy
   version: 2.5.0.dev0
   build: hb0f4dca_0
@@ -1493,7 +1493,7 @@ packages:
   license: BSD-3-Clause AND 0BSD AND MIT AND Zlib AND CC0-1.0
   package_build_source:
     path: ../..
-- conda: git+https://github.com/crusaderky/numpy?subdirectory=pixi-packages%2Ffreethreading&rev=staging#baf395be6378be93d9a2afa4b3da7554c16de395
+- conda: git+https://github.com/crusaderky/numpy?subdirectory=pixi-packages%2Ffreethreading&rev=staging#e56b24d51fef9feab7daecbb38cab02424e168ce
   name: numpy
   version: 2.5.0.dev0
   build: he8cfe8b_0
@@ -1510,7 +1510,7 @@ packages:
   license: BSD-3-Clause AND 0BSD AND MIT AND Zlib AND CC0-1.0
   package_build_source:
     path: ../..
-- conda: git+https://github.com/crusaderky/numpy?subdirectory=pixi-packages%2Ftsan-freethreading&rev=staging#baf395be6378be93d9a2afa4b3da7554c16de395
+- conda: git+https://github.com/crusaderky/numpy?subdirectory=pixi-packages%2Ftsan-freethreading&rev=staging#e56b24d51fef9feab7daecbb38cab02424e168ce
   name: numpy
   version: 2.5.0.dev0
   build: h0dc7051_0
@@ -1525,7 +1525,7 @@ packages:
   license: BSD-3-Clause AND 0BSD AND MIT AND Zlib AND CC0-1.0
   package_build_source:
     path: ../..
-- conda: git+https://github.com/crusaderky/numpy?subdirectory=pixi-packages%2Ftsan-freethreading&rev=staging#baf395be6378be93d9a2afa4b3da7554c16de395
+- conda: git+https://github.com/crusaderky/numpy?subdirectory=pixi-packages%2Ftsan-freethreading&rev=staging#e56b24d51fef9feab7daecbb38cab02424e168ce
   name: numpy
   version: 2.5.0.dev0
   build: h60d57d3_0
@@ -1540,7 +1540,7 @@ packages:
   license: BSD-3-Clause AND 0BSD AND MIT AND Zlib AND CC0-1.0
   package_build_source:
     path: ../..
-- conda: git+https://github.com/crusaderky/numpy?subdirectory=pixi-packages%2Ftsan-freethreading&rev=staging#baf395be6378be93d9a2afa4b3da7554c16de395
+- conda: git+https://github.com/crusaderky/numpy?subdirectory=pixi-packages%2Ftsan-freethreading&rev=staging#e56b24d51fef9feab7daecbb38cab02424e168ce
   name: numpy
   version: 2.5.0.dev0
   build: hb0f4dca_0
@@ -1557,7 +1557,7 @@ packages:
   license: BSD-3-Clause AND 0BSD AND MIT AND Zlib AND CC0-1.0
   package_build_source:
     path: ../..
-- conda: git+https://github.com/crusaderky/numpy?subdirectory=pixi-packages%2Ftsan-freethreading&rev=staging#baf395be6378be93d9a2afa4b3da7554c16de395
+- conda: git+https://github.com/crusaderky/numpy?subdirectory=pixi-packages%2Ftsan-freethreading&rev=staging#e56b24d51fef9feab7daecbb38cab02424e168ce
   name: numpy
   version: 2.5.0.dev0
   build: he8cfe8b_0
@@ -1615,7 +1615,7 @@ packages:
   license_family: Apache
   size: 3104268
   timestamp: 1769556384749
-- conda: git+https://github.com/python/cpython?subdirectory=Tools%2Fpixi-packages%2Fasan#201d251567738c234081329a244449e08fa86245
+- conda: git+https://github.com/python/cpython?subdirectory=Tools%2Fpixi-packages%2Fasan#1cf5abedeb97ff6ed222afd28e650b9ecc384094
   name: python
   version: '3.15'
   build: 0_asan_cp315
@@ -1652,7 +1652,7 @@ packages:
     python_abi:
       path: .
   python_site_packages_path: lib/python3.15/site-packages
-- conda: git+https://github.com/python/cpython?subdirectory=Tools%2Fpixi-packages%2Fasan#201d251567738c234081329a244449e08fa86245
+- conda: git+https://github.com/python/cpython?subdirectory=Tools%2Fpixi-packages%2Fasan#1cf5abedeb97ff6ed222afd28e650b9ecc384094
   name: python
   version: '3.15'
   build: 0_asan_cp315
@@ -1689,7 +1689,7 @@ packages:
     python_abi:
       path: .
   python_site_packages_path: lib/python3.15/site-packages
-- conda: git+https://github.com/python/cpython?subdirectory=Tools%2Fpixi-packages%2Fasan#201d251567738c234081329a244449e08fa86245
+- conda: git+https://github.com/python/cpython?subdirectory=Tools%2Fpixi-packages%2Fasan#1cf5abedeb97ff6ed222afd28e650b9ecc384094
   name: python
   version: '3.15'
   build: 0_asan_cp315
@@ -1723,7 +1723,7 @@ packages:
     python_abi:
       path: .
   python_site_packages_path: lib/python3.15/site-packages
-- conda: git+https://github.com/python/cpython?subdirectory=Tools%2Fpixi-packages%2Fasan#201d251567738c234081329a244449e08fa86245
+- conda: git+https://github.com/python/cpython?subdirectory=Tools%2Fpixi-packages%2Fasan#1cf5abedeb97ff6ed222afd28e650b9ecc384094
   name: python
   version: '3.15'
   build: 0_asan_cp315
@@ -1757,7 +1757,7 @@ packages:
     python_abi:
       path: .
   python_site_packages_path: lib/python3.15/site-packages
-- conda: git+https://github.com/python/cpython?subdirectory=Tools%2Fpixi-packages%2Fdefault#201d251567738c234081329a244449e08fa86245
+- conda: git+https://github.com/python/cpython?subdirectory=Tools%2Fpixi-packages%2Fdefault#1cf5abedeb97ff6ed222afd28e650b9ecc384094
   name: python
   version: '3.15'
   build: 0_cp315
@@ -1793,7 +1793,7 @@ packages:
     python_abi:
       path: .
   python_site_packages_path: lib/python3.15/site-packages
-- conda: git+https://github.com/python/cpython?subdirectory=Tools%2Fpixi-packages%2Fdefault#201d251567738c234081329a244449e08fa86245
+- conda: git+https://github.com/python/cpython?subdirectory=Tools%2Fpixi-packages%2Fdefault#1cf5abedeb97ff6ed222afd28e650b9ecc384094
   name: python
   version: '3.15'
   build: 0_cp315
@@ -1829,7 +1829,7 @@ packages:
     python_abi:
       path: .
   python_site_packages_path: lib/python3.15/site-packages
-- conda: git+https://github.com/python/cpython?subdirectory=Tools%2Fpixi-packages%2Fdefault#201d251567738c234081329a244449e08fa86245
+- conda: git+https://github.com/python/cpython?subdirectory=Tools%2Fpixi-packages%2Fdefault#1cf5abedeb97ff6ed222afd28e650b9ecc384094
   name: python
   version: '3.15'
   build: 0_cp315
@@ -1862,7 +1862,7 @@ packages:
     python_abi:
       path: .
   python_site_packages_path: lib/python3.15/site-packages
-- conda: git+https://github.com/python/cpython?subdirectory=Tools%2Fpixi-packages%2Fdefault#201d251567738c234081329a244449e08fa86245
+- conda: git+https://github.com/python/cpython?subdirectory=Tools%2Fpixi-packages%2Fdefault#1cf5abedeb97ff6ed222afd28e650b9ecc384094
   name: python
   version: '3.15'
   build: 0_cp315
@@ -1895,7 +1895,7 @@ packages:
     python_abi:
       path: .
   python_site_packages_path: lib/python3.15/site-packages
-- conda: git+https://github.com/python/cpython?subdirectory=Tools%2Fpixi-packages%2Ffreethreading#201d251567738c234081329a244449e08fa86245
+- conda: git+https://github.com/python/cpython?subdirectory=Tools%2Fpixi-packages%2Ffreethreading#1cf5abedeb97ff6ed222afd28e650b9ecc384094
   name: python
   version: '3.15'
   build: 0_cp315t
@@ -1930,7 +1930,7 @@ packages:
     python_abi:
       path: .
   python_site_packages_path: lib/python3.15t/site-packages
-- conda: git+https://github.com/python/cpython?subdirectory=Tools%2Fpixi-packages%2Ffreethreading#201d251567738c234081329a244449e08fa86245
+- conda: git+https://github.com/python/cpython?subdirectory=Tools%2Fpixi-packages%2Ffreethreading#1cf5abedeb97ff6ed222afd28e650b9ecc384094
   name: python
   version: '3.15'
   build: 0_cp315t
@@ -1965,7 +1965,7 @@ packages:
     python_abi:
       path: .
   python_site_packages_path: lib/python3.15t/site-packages
-- conda: git+https://github.com/python/cpython?subdirectory=Tools%2Fpixi-packages%2Ffreethreading#201d251567738c234081329a244449e08fa86245
+- conda: git+https://github.com/python/cpython?subdirectory=Tools%2Fpixi-packages%2Ffreethreading#1cf5abedeb97ff6ed222afd28e650b9ecc384094
   name: python
   version: '3.15'
   build: 0_cp315t
@@ -1997,7 +1997,7 @@ packages:
     python_abi:
       path: .
   python_site_packages_path: lib/python3.15t/site-packages
-- conda: git+https://github.com/python/cpython?subdirectory=Tools%2Fpixi-packages%2Ffreethreading#201d251567738c234081329a244449e08fa86245
+- conda: git+https://github.com/python/cpython?subdirectory=Tools%2Fpixi-packages%2Ffreethreading#1cf5abedeb97ff6ed222afd28e650b9ecc384094
   name: python
   version: '3.15'
   build: 0_cp315t
@@ -2029,7 +2029,7 @@ packages:
     python_abi:
       path: .
   python_site_packages_path: lib/python3.15t/site-packages
-- conda: git+https://github.com/python/cpython?subdirectory=Tools%2Fpixi-packages%2Ftsan-freethreading#201d251567738c234081329a244449e08fa86245
+- conda: git+https://github.com/python/cpython?subdirectory=Tools%2Fpixi-packages%2Ftsan-freethreading#1cf5abedeb97ff6ed222afd28e650b9ecc384094
   name: python
   version: '3.15'
   build: 0_tsan_cp315t
@@ -2065,7 +2065,7 @@ packages:
     python_abi:
       path: .
   python_site_packages_path: lib/python3.15t/site-packages
-- conda: git+https://github.com/python/cpython?subdirectory=Tools%2Fpixi-packages%2Ftsan-freethreading#201d251567738c234081329a244449e08fa86245
+- conda: git+https://github.com/python/cpython?subdirectory=Tools%2Fpixi-packages%2Ftsan-freethreading#1cf5abedeb97ff6ed222afd28e650b9ecc384094
   name: python
   version: '3.15'
   build: 0_tsan_cp315t
@@ -2101,7 +2101,7 @@ packages:
     python_abi:
       path: .
   python_site_packages_path: lib/python3.15t/site-packages
-- conda: git+https://github.com/python/cpython?subdirectory=Tools%2Fpixi-packages%2Ftsan-freethreading#201d251567738c234081329a244449e08fa86245
+- conda: git+https://github.com/python/cpython?subdirectory=Tools%2Fpixi-packages%2Ftsan-freethreading#1cf5abedeb97ff6ed222afd28e650b9ecc384094
   name: python
   version: '3.15'
   build: 0_tsan_cp315t
@@ -2134,7 +2134,7 @@ packages:
     python_abi:
       path: .
   python_site_packages_path: lib/python3.15t/site-packages
-- conda: git+https://github.com/python/cpython?subdirectory=Tools%2Fpixi-packages%2Ftsan-freethreading#201d251567738c234081329a244449e08fa86245
+- conda: git+https://github.com/python/cpython?subdirectory=Tools%2Fpixi-packages%2Ftsan-freethreading#1cf5abedeb97ff6ed222afd28e650b9ecc384094
   name: python
   version: '3.15'
   build: 0_tsan_cp315t
