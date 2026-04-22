@@ -37,7 +37,14 @@ jobs:
           - asan
           - freethreading
           - tsan-freethreading
-
+        exclude:
+          # Known issues in NumPy recipe
+          - os: macos-15-intel
+            package: numpy
+            variant: asan
+          - os: macos-15-intel
+            package: numpy
+            variant: tsan-freethreading
     steps:
       - name: Checkout
         uses: actions/checkout@v6

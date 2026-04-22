@@ -31,7 +31,7 @@ python ="*"
 [feature.python-freethreading-release.dependencies]
 python-freethreading = "*"
 
-# https://github.com/numpy/numpy/pull/XXX
+# https://github.com/numpy/numpy/pull/31304
 
 [feature.numpy-default.dependencies]
 numpy.git = "https://github.com/crusaderky/numpy"
